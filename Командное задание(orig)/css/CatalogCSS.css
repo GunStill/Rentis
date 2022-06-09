@@ -1,0 +1,406 @@
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v24-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/montserrat-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/montserrat-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/montserrat-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/montserrat-v24-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/montserrat-v24-latin-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+}
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v29-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/playfair-display-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/playfair-display-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/playfair-display-v29-latin-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+/* playfair-display-600 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/playfair-display-v29-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/playfair-display-v29-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/playfair-display-v29-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-600.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/playfair-display-v29-latin-600.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/playfair-display-v29-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+  url('../fonts/playfair-display-v29-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/playfair-display-v29-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-700.woff') format('woff'), /* Modern Browsers */
+  url('../fonts/playfair-display-v29-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/playfair-display-v29-latin-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+}
+/*Intro style end*/
+html {
+  box-sizing: border-box;
+}
+*, *::before,*::after{
+
+  box-sizing: inherit;
+}
+/* Header style start*/
+body {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #102647;
+}
+
+.wrapper{
+  max-width: 1680px;
+  margin: 0 auto;
+  margin-left: 0px;
+  padding-left: 120px;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 30px;
+
+}
+
+.header_wrapper{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header_list{
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+}
+
+.header_item{
+  margin-right: 40px;
+  color: #FFFFFF;
+}
+.header_item:hover, .header_item:focus,.header_item:active{
+  opacity: .75;
+}
+.header_nav{
+  padding-bottom: 20px;
+}
+.aaa{
+  text-decoration: none;
+  color: #fff;
+}
+.aaa:hover, .aaa:focus,.aaa:active{
+  color: rgba(255, 255, 255, 0.75);
+}
+/* Header style end*/
+
+/*Intro style start*/
+.intro{
+  height: 100vh;
+  background: url(../img/nochnoj_gorod.png) no-repeat center ;
+  background-size: cover;
+  padding-top: 240px;
+}
+
+.intro_title{
+  font-family: Playfair Display;
+  font-style: 700;
+  font-size: 100px;
+  line-height: 133px;
+  line-height: 100%;
+  margin-bottom: 30px;
+  color: #FFFFFF;
+  max-width: 843px;
+}
+
+.intro_subtitle{
+  font-family: Montserrat;
+  font-style: 400;
+  font-size: 32px;
+  line-height: 39px;
+  line-height: 100%;
+  margin-bottom: 50px;
+  color: #FFFFFF;
+  max-width: 665px;
+
+}
+
+.class-button{
+  
+
+
+  width: 300px;
+  height: 60px;
+  left: 120px;
+
+  background: #F7FB51;
+  border-radius: 50px;
+
+}
+
+.button{
+  background: #F7FB51;
+  border: 0px;
+  padding: 15px 75px;
+  border-radius: 50px;
+}
+
+/*Intro style end*/
+
+/*Dialog open start*/
+.text_box{
+  position: absolute;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.modal_dialog{
+  display: table; /* This is important */ 
+  width: 750px;
+  margin: auto;
+  background-color: aqua;
+  transition:transform .3s ease-out;transform:translate(0,-50px)
+}
+.modal_content{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  pointer-events:auto;
+  background-color:#fff;
+  background-clip:padding-box;
+  border:1px solid rgba(0,0,0,.2);
+  border-radius:.3rem;
+  outline:0
+}
+
+/*Dialog open end*/
+
+/*Popup style start*/
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility:hidden;
+}
+
+.popup:target{
+    opacity: 1;
+    visibility:visible;
+}
+
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content{
+  position:absolute;
+  width: 750px;
+  height: 600px;
+  background: #E0E0E0;
+  border-radius: 40px;
+  position: relative;
+}
+.popup_close_box{
+  position:absolute;
+  right: 30px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #EDEDED;
+}
+.popup_close{
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    left:3px;
+    bottom:5px;
+    color: #000;
+    margin: 10px;
+    text-decoration: none;
+}
+.popup_title{
+    font-size: 40px ;
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin: 15px 0px 20px 50px;
+    color: #565555;
+}
+.popup_text_box{
+  font-family: 'Montserrat';
+  font-style: normal;
+  margin-left:7%;
+  margin-right: 7%;
+  max-width: 90%;
+}
+.popup_text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-size: 30px;
+  line-height: 33px;
+  color: #0F0E0E;
+}
+.popup_area{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left:0;
+}
+.popup_mini{
+  display: flex;
+  margin-top: 20px;
+  margin-left:5%;
+  margin-right: 5%;
+  max-width: 95%;
+}
+.photo_legends{
+  background: #000000;
+  opacity: 0.5;
+  width: 230px;
+  margin: 5px;
+  height: 230px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.forphoto{
+
+}
+.forname{
+
+}
+/*Popup style end*/
+
+
+.class-button{
+  
+
+
+  width: 300px;
+  height: 90px;
+  left: 120px;
+
+
+  background: #F7FB51;
+  border-radius: 50px;
+
+}
+
+.button{
+  background: #F7FB51;
+  border: 0px;
+  padding: 30px 112px;
+  border-radius: 50px;
+
+}
+
+.Catalog{
+background-color: #DCDCDC;
+width: 1430px;
+height: 550px;
+margin-left: 25px;
+border-radius: 40px;
+opacity: .80;
+
+
+}
+
+.Catalog-1{
+display: flex;
+margin-left: 50px;
+
+}
+
+.lot-1{
+  background-color: #2F4F4F;
+  width: 300px;
+  height: 235px;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-radius: 20px;
+ 
+
+}
+
+.image_lot{
+background-color: red;
+width: 260px;
+height: 145px;
+margin: 20px;
+border-radius: 10px;
+
+}
+
+.description_lot{
+background-color: #FFFFFF;
+width: 262px;
+height: 38px;
+margin: 20px;
+border-radius: 10px;
+ opacity: 1.0;
+
+}
+
+
+.Catalog-2{
+display: flex;
+margin-left: 50px;
+
+}
+
+.lot-2{
+  background-color: #2F4F4F;
+  width: 300px;
+  height: 235px;
+  margin-left: 25px;
+  margin-top: 30px;
+  border-radius: 20px;
+
+
+}
+
+.foto_size{
+  width: 260px;
+height: 145px;
+border-radius: 10px;
+}
+
+.text{
+  font-size: 15px;
+  margin-left: 5px;
+}
